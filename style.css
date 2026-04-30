@@ -15,7 +15,8 @@ body {
 }
 
 .hero h1 {
-  font-size: 50px;
+  font-size: 55px;
+  margin: 0;
 }
 
 .hero p {
@@ -24,20 +25,22 @@ body {
 }
 
 .btn {
+  margin-top: 20px;
   padding: 12px 24px;
   background: #3b82f6;
   color: white;
   border-radius: 10px;
   text-decoration: none;
-  margin-top: 15px;
+  transition: 0.3s;
 }
 
 .btn:hover {
   background: #2563eb;
+  transform: scale(1.05);
 }
 
 .section {
-  padding: 60px;
+  padding: 80px;
   text-align: center;
-  background: #0b1220;
+  background: #111827;
 }
