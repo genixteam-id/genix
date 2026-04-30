@@ -1,13 +1,11 @@
-/* الإعدادات الأساسية */
+/* الإعدادات العامة */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #121212; /* خلفية داكنة فخمة */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f172a; /* لون داكن فخم */
   color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  direction: rtl;
 }
 
 /* واجهة المقدمة */
@@ -18,71 +16,75 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 20px;
 }
 
 .main-logo {
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+  margin-bottom: 20px;
   border: 3px solid #3b82f6;
-  margin-bottom: 15px;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
 }
 
-.hero h1 { font-size: 32px; margin: 5px 0; }
-.hero p { opacity: 0.7; font-size: 16px; margin-bottom: 20px; }
+.hero h1 { font-size: 40px; margin: 10px 0; }
+.hero p { opacity: 0.8; font-size: 18px; }
 
-/* حاوية الأزرار الكبيرة */
+/* حاوية الروابط (المكعبات) */
 .links-section {
   width: 100%;
-  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* لتوسيط المكعبات */
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .contact-card {
   display: flex;
   align-items: center;
-  background: #1e1e1e; /* لون البطاقة */
+  width: 100%;
+  max-width: 400px; /* عرض المكعب */
+  background: #1e293b;
   margin-bottom: 15px;
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 12px;
   text-decoration: none;
   color: white;
-  transition: transform 0.2s;
-  border: 1px solid rgba(255,255,255,0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.3s;
 }
 
 .contact-card:hover {
+  background: #334155;
   transform: translateY(-3px);
-  background: #252525;
 }
 
-/* الدائرة الملونة للأيقونة */
+/* الدائرة الملونة داخل المكعب */
 .icon-circle {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  margin-left: 15px; /* مسافة للجهة اليمنى لأن الموقع RTL */
+  margin-left: 15px; /* مسافة لليمين */
 }
 
 /* ألوان الأيقونات */
-.web-blue { background: #3b82f6; box-shadow: 0 0 10px #3b82f6; }
-.email-red { background: #ea4335; box-shadow: 0 0 10px #ea4335; }
-.whatsapp-green { background: #25d366; box-shadow: 0 0 10px #25d366; }
+.web-blue { background: #3b82f6; }
+.email-red { background: #ea4335; }
+.whatsapp-green { background: #25d366; }
 .insta-pink { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
 
-/* نصوص البطاقة */
+/* نصوص الرابط */
 .link-info {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  text-align: right;
 }
 
 .link-title { font-weight: bold; font-size: 16px; }
-.link-sub { font-size: 12px; opacity: 0.5; margin-top: 3px; }
-
-.arrow { opacity: 0.3; font-size: 20px; }
+.link-sub { font-size: 12px; opacity: 0.5; }
