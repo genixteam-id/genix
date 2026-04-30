@@ -7,47 +7,61 @@
   <style>
     body {
       margin: 0; padding: 0;
-      background-color: #121212; /* خلفية سوداء */
+      /* خلفية متدرجة فخمة */
+      background: radial-gradient(circle at top, #1e293b 0%, #0f172a 100%);
+      background-attachment: fixed;
       color: white;
-      font-family: sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       display: flex; flex-direction: column; align-items: center;
+      min-height: 100vh;
     }
-    .header { text-align: center; margin-top: 50px; margin-bottom: 30px; }
-    .header h1 { font-size: 28px; margin: 0; }
-    .header p { color: #888; margin-top: 5px; }
 
-    .links-container { width: 90%; max-width: 400px; display: flex; flex-direction: column; gap: 15px; padding-bottom: 50px; }
+    .header { text-align: center; margin-top: 60px; margin-bottom: 40px; }
+    .header h1 { font-size: 32px; margin: 0; letter-spacing: 1px; text-transform: lowercase; }
+    .header p { color: #94a3b8; margin-top: 8px; font-size: 15px; }
 
-    /* تصميم المكعب */
+    .links-container { width: 90%; max-width: 420px; display: flex; flex-direction: column; gap: 18px; padding-bottom: 60px; }
+
+    /* تأثير المكعب الزجاجي الفخم */
     .btn-link {
       display: flex; align-items: center;
-      background: #1e1e1e; /* لون المكعب الرمادي */
-      padding: 15px; border-radius: 12px;
+      background: rgba(255, 255, 255, 0.05); /* شفافية بسيطة */
+      backdrop-filter: blur(10px); /* تأثير الغباش خلف المكعب */
+      -webkit-backdrop-filter: blur(10px);
+      padding: 16px; border-radius: 16px;
       text-decoration: none; color: white;
-      border: 1px solid #333; transition: 0.3s;
+      border: 1px solid rgba(255, 255, 255, 0.1); /* حواف زجاجية ناعمة */
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
-    .btn-link:hover { background: #252525; transform: translateY(-2px); }
 
-    /* الدائرة الملونة */
+    .btn-link:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(-5px);
+      border-color: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    }
+
     .icon {
-      width: 45px; height: 45px; border-radius: 50%;
+      width: 50px; height: 50px; border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      margin-left: 15px; font-size: 20px;
+      margin-left: 15px; font-size: 22px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
     
-    /* ألوان الأيقونات الجديدة */
-    .bg-web { background: #3b82f6; }
-    .bg-mail { background: #ea4335; }
-    .bg-wa { background: #25d366; }
-    .bg-tiktok { background: #000000; border: 1px solid #444; }
-    .bg-fb { background: #1877f2; }
+    /* ألوان الأيقونات بتدرج بسيط */
+    .bg-web { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+    .bg-fb { background: linear-gradient(135deg, #1877f2, #0866ff); }
+    .bg-tiktok { background: #000; border: 1px solid #444; }
+    .bg-wa { background: linear-gradient(135deg, #25d366, #128c7e); }
+    .bg-mail { background: linear-gradient(135deg, #ea4335, #b21f1f); }
 
     .text-content { display: flex; flex-direction: column; text-align: right; flex-grow: 1; }
-    .title { font-weight: bold; font-size: 16px; }
-    .sub { font-size: 12px; color: #888; }
+    .title { font-weight: 600; font-size: 17px; }
+    .sub { font-size: 13px; color: #94a3b8; margin-top: 3px; }
   </style>
 </head>
 <body>
+
   <div class="header">
     <h1>genix.team</h1>
     <p>📍 ankara</p>
@@ -55,35 +69,31 @@
   </div>
 
   <div class="links-container">
-    <!-- الموقع الرسمي -->
     <a href="https://Genix-id.com" class="btn-link">
       <div class="icon bg-web">🌐</div>
       <div class="text-content"><span class="title">الموقع الرسمي</span><span class="sub">Genix-id.com</span></div>
     </a>
 
-    <!-- فيسبوك -->
     <a href="https://www.facebook.com/share/18B6R4fGbG/" class="btn-link">
       <div class="icon bg-fb">🔹</div>
       <div class="text-content"><span class="title">Facebook</span><span class="sub">تابعنا على فيسبوك</span></div>
     </a>
 
-    <!-- تيك توك -->
     <a href="https://www.tiktok.com/@genix.team" class="btn-link">
       <div class="icon bg-tiktok">🎵</div>
       <div class="text-content"><span class="title">TikTok</span><span class="sub">@genix.team</span></div>
     </a>
 
-    <!-- واتساب -->
     <a href="https://wa.me/905527223847" class="btn-link">
       <div class="icon bg-wa">💬</div>
-      <div class="text-content"><span class="title">WhatsApp</span><span class="sub">+90 552 722 38 47</span></div>
+      <div class="text-content"><span class="title">WhatsApp</span><span class="sub">تواصل مباشر معنا</span></div>
     </a>
 
-    <!-- البريد الإلكتروني -->
     <a href="mailto:Genix.team.id@gmail.com" class="btn-link">
       <div class="icon bg-mail">✉️</div>
-      <div class="text-content"><span class="title">البريد الإلكتروني</span><span class="sub">Genix.team.id@gmail.com</span></div>
+      <div class="text-content"><span class="title">البريد الإلكتروني</span><span class="sub">للاستفسارات الرسمية</span></div>
     </a>
   </div>
+
 </body>
 </html>
