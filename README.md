@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="ceo.png" alt="Genix ID CEO" width="100%" style="border-radius: 15px;">
-</p>
 # <p align="center">🚀 Genix Team - الحلول الرقمية المتكاملة</p>
 
 <p align="center">
@@ -10,20 +7,23 @@
 ---
 
 ### 🛠 خدماتنا الاحترافية
-*   🎨 **الهوية البصرية:** بناء شعارات وهويات بصرية متكاملة.
-*   🤖 **الذكاء الاصطناعي:** أتمتة الأعمال وحلول AI مبتكرة.
-*   💻 **البرمجة:** تطوير مواقع ومتاجر إلكترونية (E-commerce).
-*   📱 **إدارة الحسابات:** صناعة محتوى وتفاعل احترافي.
+نحن شريكك الرقمي المتكامل لبناء هوية بصرية قوية ودمج أحدث تقنيات الذكاء الاصطناعي في أعمالك:
+
+* 🎨 **الهوية البصرية:** بناء شعارات وهويات بصرية متكاملة تعكس احترافيتك.
+* 🤖 **الذكاء الاصطناعي:** أتمتة الأعمال وحلول AI مبتكرة لزيادة الكفاءة.
+* 💻 **البرمجة:** تطوير مواقع ومتاجر إلكترونية (E-commerce) عصرية.
+* 📱 **إدارة الحسابات:** صناعة محتوى وتفاعل احترافي لزيادة وصولك.
 
 ---
 
-### 📞 تواصل معنا الآن
+## 📱 تواصل معنا (اتصل الآن)
+
 | المنصة | رابط التواصل المباشر |
 | :--- | :--- |
-| **WhatsApp** | [اضغط هنا للمراسلة (تركي)](https://wa.me/905527223847) |
-| **Instagram** | [Genix Team Instagram](https://www.instagram.com/genix.team?igsh=MXB6NGxweWUxYXdtNQ==) |
-| **TikTok** | [Genix Team TikTok](https://www.tiktok.com/@genix.team?_r=1&_t=ZS-95y5Q8xUwkr) |
-| **Facebook** | [Genix Team Facebook](https://www.facebook.com/share/18B6R4fGbG/?mibextid=wwXIfr) |
+| 🟢 **WhatsApp** | [أرسل رسالة مباشرة للرقم 3847](https://wa.me/905527223847) |
+| 📸 **Instagram** | [تابعنا على إنستغرام](https://www.instagram.com/genix.team?igsh=MXB6NGxweWUxYXdtNQ==) |
+| 🎵 **TikTok** | [شاهد أعمالنا على تيك توك](https://www.tiktok.com/@genix.team?_r=1&_t=ZS-95y5Q8xUwkr) |
+| 🔵 **Facebook** | [تواصل معنا عبر فيسبوك](https://www.facebook.com/share/18B6R4fGbG/?mibextid=wwXIfr) |
 
 ---
 <p align="center">جاهزون لتحويل فكرتك إلى واقع رقمي مبهر.</p>
