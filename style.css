@@ -5,6 +5,7 @@ body {
   color: white;
 }
 
+/* HERO SECTION */
 .hero {
   height: 100vh;
   display: flex;
@@ -24,6 +25,7 @@ body {
   opacity: 0.8;
 }
 
+/* BUTTON */
 .btn {
   margin-top: 20px;
   padding: 12px 24px;
@@ -39,6 +41,28 @@ body {
   transform: scale(1.05);
 }
 
+/* SOCIAL LINKS */
+.social {
+  margin-top: 30px;
+}
+
+.social a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  transform: scale(1.1);
+}
+
+.social img {
+  height: 40px;
+  border-radius: 8px;
+}
+
+/* PROJECTS SECTION */
 .section {
   padding: 80px;
   text-align: center;
