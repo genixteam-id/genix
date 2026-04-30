@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png" width="100%" style="border-radius: 15px;">
+</p>
+
 # <p align="center">🚀 Genix Team - الحلول الرقمية المتكاملة</p>
 
 <p align="center">
@@ -7,23 +11,29 @@
 ---
 
 ### 🛠 خدماتنا الاحترافية
-نحن شريكك الرقمي المتكامل لبناء هوية بصرية قوية ودمج أحدث تقنيات الذكاء الاصطناعي في أعمالك:
-
-* 🎨 **الهوية البصرية:** بناء شعارات وهويات بصرية متكاملة تعكس احترافيتك.
-* 🤖 **الذكاء الاصطناعي:** أتمتة الأعمال وحلول AI مبتكرة لزيادة الكفاءة.
-* 💻 **البرمجة:** تطوير مواقع ومتاجر إلكترونية (E-commerce) عصرية.
-* 📱 **إدارة الحسابات:** صناعة محتوى وتفاعل احترافي لزيادة وصولك.
+* 🎨 **الهوية البصرية:** بناء شعارات وهويات بصرية متكاملة.
+* 🤖 **الذكاء الاصطناعي:** أتمتة الأعمال وحلول AI مبتكرة.
+* 💻 **البرمجة:** تطوير مواقع ومتاجر إلكترونية (E-commerce).
+* 📱 **إدارة الحسابات:** صناعة محتوى وتفاعل احترافي.
 
 ---
 
 ## 📱 تواصل معنا (اتصل الآن)
 
-| المنصة | رابط التواصل المباشر |
-| :--- | :--- |
-| 🟢 **WhatsApp** | [أرسل رسالة مباشرة للرقم 3847](https://wa.me/905527223847) |
-| 📸 **Instagram** | [تابعنا على إنستغرام](https://www.instagram.com/genix.team?igsh=MXB6NGxweWUxYXdtNQ==) |
-| 🎵 **TikTok** | [شاهد أعمالنا على تيك توك](https://www.tiktok.com/@genix.team?_r=1&_t=ZS-95y5Q8xUwkr) |
-| 🔵 **Facebook** | [تواصل معنا عبر فيسبوك](https://www.facebook.com/share/18B6R4fGbG/?mibextid=wwXIfr) |
+<p align="left">
+<a href="https://wa.me/905527223847">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+</a>
+<a href="https://www.instagram.com/genix.team">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+</a>
+<a href="https://www.tiktok.com/@genix.team">
+  <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok">
+</a>
+<a href="https://www.facebook.com/share/18B6R4fGbG/?mibextid=wwXIfr">
+  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
+</a>
+</p>
 
 ---
 <p align="center">جاهزون لتحويل فكرتك إلى واقع رقمي مبهر.</p>
