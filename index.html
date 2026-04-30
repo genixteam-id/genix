@@ -4,38 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Genix Team</title>
+  <!-- رابط مكتبة الأيقونات الأصلية -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
-    /* خلفية كحلية عميقة مع تأثير النجوم */
     body {
       margin: 0; padding: 0;
-      background: #020617; /* لون كحلي غامق جداً */
+      background: #020617;
       background-image: 
         radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
         radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
         radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 20px);
       background-size: 550px 550px, 350px 350px, 250px 250px;
-      background-position: 0 0, 40px 60px, 130px 270px;
-      animation: stars 10s linear infinite; /* حركة خفيفة للنجوم */
+      animation: stars 15s linear infinite;
       color: white;
       font-family: sans-serif;
       display: flex; flex-direction: column; align-items: center;
       min-height: 100vh;
-      overflow-x: hidden;
     }
 
-    /* حركة النجوم */
     @keyframes stars {
       from { background-position: 0 0, 40px 60px, 130px 270px; }
       to { background-position: 550px 550px, 390px 610px, 680px 820px; }
     }
 
-    .header { text-align: center; margin-top: 50px; margin-bottom: 30px; position: relative; z-index: 1; }
+    .header { text-align: center; margin-top: 50px; margin-bottom: 30px; }
     .header h1 { font-size: 30px; margin: 0; text-shadow: 0 0 15px rgba(59, 130, 246, 0.5); }
     .header p { color: #94a3b8; margin-top: 5px; }
 
-    .links-container { width: 90%; max-width: 400px; display: flex; flex-direction: column; gap: 15px; padding-bottom: 50px; position: relative; z-index: 1; }
+    .links-container { width: 90%; max-width: 400px; display: flex; flex-direction: column; gap: 15px; padding-bottom: 50px; }
 
-    /* المكعبات الزجاجية الشفافة لكي تظهر النجوم خلفها */
     .btn-link {
       display: flex; align-items: center;
       background: rgba(255, 255, 255, 0.05); 
@@ -46,16 +43,13 @@
       border: 1px solid rgba(255, 255, 255, 0.1); 
       transition: 0.3s ease;
     }
-    .btn-link:hover { 
-      background: rgba(255, 255, 255, 0.12); 
-      transform: translateY(-3px); 
-      border-color: rgba(59, 130, 246, 0.5);
-    }
+    .btn-link:hover { background: rgba(255, 255, 255, 0.12); transform: translateY(-3px); }
 
+    /* تنسيق الأيقونات الأصلية */
     .icon {
       width: 45px; height: 45px; border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      margin-left: 15px; font-size: 20px;
+      margin-left: 15px; font-size: 22px; /* حجم اللوجو */
     }
     
     .bg-web { background: #3b82f6; }
@@ -79,33 +73,39 @@
   </div>
 
   <div class="links-container">
+    <!-- الموقع الرسمي -->
     <a href="https://Genix-id.com" class="btn-link">
-      <div class="icon bg-web">🌐</div>
+      <div class="icon bg-web"><i class="fas fa-globe"></i></div>
       <div class="text-content"><span class="title">الموقع الرسمي</span><span class="sub">Genix-id.com</span></div>
     </a>
 
+    <!-- إنستغرام -->
     <a href="https://instagram.com/genix.team" class="btn-link">
-      <div class="icon bg-ig">📸</div>
+      <div class="icon bg-ig"><i class="fab fa-instagram"></i></div>
       <div class="text-content"><span class="title">Instagram</span><span class="sub">@genix.team</span></div>
     </a>
 
+    <!-- فيسبوك -->
     <a href="https://www.facebook.com/share/18B6R4fGbG/" class="btn-link">
-      <div class="icon bg-fb">🔹</div>
+      <div class="icon bg-fb"><i class="fab fa-facebook-f"></i></div>
       <div class="text-content"><span class="title">Facebook</span><span class="sub">صفحتنا على فيسبوك</span></div>
     </a>
 
+    <!-- تيك توك -->
     <a href="https://www.tiktok.com/@genix.team" class="btn-link">
-      <div class="icon bg-tk">🎵</div>
+      <div class="icon bg-tk"><i class="fab fa-tiktok"></i></div>
       <div class="text-content"><span class="title">TikTok</span><span class="sub">@genix.team</span></div>
     </a>
 
+    <!-- واتساب -->
     <a href="https://wa.me/905527223847" class="btn-link">
-      <div class="icon bg-wa">💬</div>
+      <div class="icon bg-wa"><i class="fab fa-whatsapp"></i></div>
       <div class="text-content"><span class="title">WhatsApp</span><span class="sub">تواصل مباشر</span></div>
     </a>
 
+    <!-- البريد الإلكتروني -->
     <a href="mailto:Genix.team.id@gmail.com" class="btn-link">
-      <div class="icon bg-mail">✉️</div>
+      <div class="icon bg-mail"><i class="fas fa-envelope"></i></div>
       <div class="text-content"><span class="title">البريد الإلكتروني</span><span class="sub">تواصل رسمي</span></div>
     </a>
   </div>
