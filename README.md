@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="ceo.png" alt="Genix ID CEO" width="100%" style="border-radius: 15px;">
+</p>
 # <p align="center">🚀 Genix Team - الحلول الرقمية المتكاملة</p>
 
 <p align="center">
